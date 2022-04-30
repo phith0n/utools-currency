@@ -1,21 +1,18 @@
 const ISO_MAP = [{
+  name: 'SGD',
+  scName: '新加坡元'
+}, {
   name: 'CNY',
   scName: '人民币'
 }, {
   name: 'USD',
   scName: '美元'
 }, {
-  name: 'JPY',
-  scName: '日元'
-}, {
-  name: 'KRW',
-  scName: '韩元'
+  name: 'MYR',
+  scName: '马来西亚林吉特'
 }, {
   name: 'HKD',
   scName: '港币'
-}, {
-  name: 'TWD',
-  scName: '新台币'
 }, {
   name: 'EUR',
   scName: '欧元'
@@ -23,14 +20,14 @@ const ISO_MAP = [{
   name: 'GBP',
   scName: '英镑'
 }, {
+  name: 'JPY',
+  scName: '日元'
+}, {
   name: 'RUB',
   scName: '卢布'
 }, {
-  name: 'AUD',
-  scName: '澳元'
-}, {
-  name: 'CAD',
-  scName: '加元'
+  name: 'TWD',
+  scName: '新台币'
 }]
 typeof module === 'object' && module.exports && (module.exports.isoMap = ISO_MAP)
 
