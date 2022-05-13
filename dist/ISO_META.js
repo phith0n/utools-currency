@@ -8,11 +8,11 @@ const ISO_MAP = [{
   name: 'USD',
   scName: '美元'
 }, {
-  name: 'MYR',
-  scName: '马来西亚林吉特'
-}, {
   name: 'HKD',
   scName: '港币'
+}, {
+  name: 'THB',
+  scName: '泰铢'
 }, {
   name: 'EUR',
   scName: '欧元'
@@ -23,8 +23,8 @@ const ISO_MAP = [{
   name: 'JPY',
   scName: '日元'
 }, {
-  name: 'RUB',
-  scName: '卢布'
+  name: 'MYR',
+  scName: '马来西亚林吉特'
 }, {
   name: 'TWD',
   scName: '新台币'

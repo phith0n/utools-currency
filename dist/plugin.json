@@ -50,17 +50,6 @@
       ]
     },
     {
-      "code": "MYR",
-      "explain": "货币汇率计算器",
-      "cmds": [
-        {
-          "type": "regex",
-          "label": "马来西亚林吉特汇率转换",
-          "match": "/^(MYR|马来西亚林吉特).*/i"
-        }
-      ]
-    },
-    {
       "code": "HKD",
       "explain": "货币汇率计算器",
       "cmds": [
@@ -68,6 +57,17 @@
           "type": "regex",
           "label": "港币汇率转换",
           "match": "/^(HKD|港币).*/i"
+        }
+      ]
+    },
+    {
+      "code": "THB",
+      "explain": "货币汇率计算器",
+      "cmds": [
+        {
+          "type": "regex",
+          "label": "泰铢汇率转换",
+          "match": "/^(THB|泰铢).*/i"
         }
       ]
     },
@@ -105,13 +105,13 @@
       ]
     },
     {
-      "code": "RUB",
+      "code": "MYR",
       "explain": "货币汇率计算器",
       "cmds": [
         {
           "type": "regex",
-          "label": "卢布汇率转换",
-          "match": "/^(RUB|卢布).*/i"
+          "label": "马来西亚林吉特汇率转换",
+          "match": "/^(MYR|马来西亚林吉特).*/i"
         }
       ]
     },
